@@ -7,6 +7,7 @@ module.exports = (client) => {
       let pull = require(`../events/${file}`);
       if(pull.name){
         client.events.set(pull.name, pull)
+        console.log('Wczytywanie działania: ${pull.name}...}')
       } else {
         continue;
       }
