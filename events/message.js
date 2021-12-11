@@ -1,5 +1,5 @@
-const client = require('../main.js');
-const config = require('../config.json');
+const client = require('../bot.js');
+const config = require('../konfiguracja.json');
 
 client.on('messageCreate', async message =>{
     if(message.author.bot) return;
