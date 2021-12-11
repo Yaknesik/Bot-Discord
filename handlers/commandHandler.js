@@ -7,7 +7,7 @@ module.exports = (client) => {
             let pull = require(`../commands/${dir}/${file}`);
             if(pull.name){
                 client.commands.set(pull.name, pull);
-                console.log(`Test komendy: ${pull.name}`)
+                console.log(`Wczytywanie komendy ${pull.name}...`)
             } else {
                 continue;
             }if(pull.aliases && Array.isArray(pull.aliases)) pull.aliases.forEach(alias => client.aliases.set(alias, pull.name))
