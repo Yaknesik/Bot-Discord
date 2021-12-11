@@ -1,5 +1,5 @@
 const {Collection, Client, Discord} = require('discord.js')
-const { token } = require('./config.json');
+const { token } = require('./konfiguracja.json');
 const fs = require('fs')
 
 const client = new Client({
@@ -24,11 +24,9 @@ const client = new Client({
 module.exports = client;
 
 client.once('ready', () => {
-	console.log('|~~~~~~~~~~~~~~~~~~~~~~~~~|');
-    console.log('|       OP-Cape.pl!       |')
-    console.log('| Hosting pelerynek do mc |')
-    console.log('|        Ticket Bot       |')
-    console.log('|~~~~~~~~~~~~~~~~~~~~~~~~~|')
+	console.log('|~~~~~~~~~~~~~~~~~~~~~~~~~~|')
+	console.log('| Bot Gotowy do działanaia |')
+	console.log('|~~~~~~~~~~~~~~~~~~~~~~~~~~|')
 });
 
 client.commands = new Collection();
