@@ -1,5 +1,5 @@
 # discord-bot
-Podstawa do Bota w Discord.js v13
+Podstawa do Bota w Discord.js
 
 Wystarczy tylko pobrać, stworzyć komendy i gotowe! 😊
 
@@ -12,4 +12,4 @@ Pierw musicie zainstalować  potrzebne biblioteki. W tym wypadku będą:
 - Discord.js
 - fs
 
-Po zainstalowaniu wystarczy w cmd w folderze wpisać "node bot.js" lub "node ." i gotowe!
+Po zainstalowaniu wystarczy w cmd w VSC albo w folderzewpisać "node bot.js" lub "node ." i gotowe!
